@@ -1,8 +1,9 @@
 # Chapter 01 – Introduction to Development Tools & Internship Workflow
 
-## Day 1 Overview
-Today is the first day of the internship. The session introduced the internship
-structure, learning expectations, and how GitHub will be used to document learning.
+## Overview
+The internship orientation was conducted on the previous day, where the overall
+structure and expectations were explained. From today onwards, we are required
+to actively document our learning using GitHub.
 
 ## Concepts Introduced
 - Internship learning journal
@@ -11,7 +12,9 @@ structure, learning expectations, and how GitHub will be used to document learni
 - Repository and README files
 - Module-wise and chapter-wise folder structure
 
-## Documentation Method
-- Notes will be updated daily
+## Documentation Process
+- Learning will be documented daily
 - Markdown files will be used
-- Changes will be committed and pushed regularly
+- Changes will be committed and pushed regularly to GitHub
+
+
