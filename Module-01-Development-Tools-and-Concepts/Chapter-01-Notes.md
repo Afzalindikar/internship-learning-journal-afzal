@@ -25,4 +25,19 @@ The second session focused on understanding the essential development tools requ
 - Understanding the role of tools in effective workflow
 - Differentiating between types of tools used in development
 
+---
+
+## Week 1 – Day 3
+
+### Session Summary
+In this session, we learned about setting up a development environment using command-line tools. The video explained how to install and configure essential tools, along with commands to verify installation status.
+
+### Concepts Covered
+- Checking tool versions from terminal
+- Installing Linux packages
+- Setting up environment variables
+- Using the shell for basic tasks
+
+
+
 
