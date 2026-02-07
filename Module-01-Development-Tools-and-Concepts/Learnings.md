@@ -1,27 +1,37 @@
 # Learnings
 
-## Week 1 – Day 1
-### Key Learnings
-- Understood the overall internship structure and expectations
-- Realized the importance of daily documentation
-- Learned how GitHub will be used as a learning journal
-- Got familiar with repository structure and README files
 
----
+## Week 1 – Day 1
+- Understood the structure and expectations of the TDS internship course
+- Learned how course portals are used for learning and submissions
+- Realized the importance of projects and collaboration in becoming job-ready
+- Understood why documenting learning on GitHub is mandatory
+- Got introduced to Windows Subsystem for Linux (WSL) and its role in development
+- Learned how environment setup is the first step before development
 
 ## Week 1 – Day 2
-### Key Learnings
-- Learned why development tools are essential in practical work
-- Understood the need for environment setup
-- Gained clarity on the role of tools in the internship workflow
-- Improved familiarity with the development ecosystem
-
----
+- Learned how WSL works and how it differs from traditional virtual machines
+- Understood the steps required to install and configure Ubuntu on WSL
+- Became familiar with navigating the Linux file system
+- Learned basic terminal commands for daily use
+- Understood the fundamentals of Git and why version control is important
+- Gained clarity on the Git–GitHub workflow for tracking and sharing work
 
 ## Week 1 – Day 3
+- Learned how the Linux file system is structured and organized
+- Understood the difference between absolute and relative paths
+- Gained confidence in using command-line tools inside WSL
+- Learned how VS Code integrates with the WSL terminal
+- Understood the purpose of UV in managing Python projects and dependencies
+- Learned how LLM tools can be installed and used via the command line
+- Gained exposure to using AI models like GPT and Gemini through terminal commands
 
-### Key Learnings
-- I learned how to install packages using the terminal
-- Understood the role of environment variables
-- Practiced using basic Linux commands
-- I now feel more confident navigating the terminal
+## Week 1 – Day 4
+- Learned how to set up a complete development environment
+- Understood the importance of using package managers like Homebrew
+- Learned how to manage multiple Python versions using pyenv
+- Understood how project-specific environments help avoid conflicts
+- Learned how GitHub CLI simplifies repository management
+- Gained confidence in creating and managing GitHub repositories from the terminal
+- Learned practical usage of LLM command-line tools for real-world tasks
+
