@@ -19,7 +19,6 @@ This introductory session provided an overview of the Tools in Data Science (TDS
 - Overview of Windows Subsystem for Linux (WSL)
 - Step-by-step guidance for starting WSL installation
 
----
 
 ## Week 1 – Day 2
 
@@ -41,7 +40,6 @@ This session focused on setting up a Linux development environment using Windows
 - Introduction to repositories and commits
 - Discussion on GitHub usage policies and learning roadmap
 
----
 
 ## Week 1 – Day 3
 
@@ -63,7 +61,6 @@ This session introduced the use of WSL (Windows Subsystem for Linux) and focused
 - Setting up API keys for AI model access
 - Using terminal commands to interact with GPT and Gemini models
 
----
 
 ## Week 1 – Day 4
 
@@ -82,6 +79,7 @@ This session focused on setting up a complete development environment for effect
 - Proper environment setup helps avoid dependency and version conflicts
 - Command-line tools provide better control and automation
 - Tool configuration is an important part of professional development workflow
+
 
 
 
