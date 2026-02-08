@@ -35,3 +35,11 @@
 - Gained confidence in creating and managing GitHub repositories from the terminal
 - Learned practical usage of LLM command-line tools for real-world tasks
 
+## Week 1 – Day 5
+- Understood why Git and GitHub are essential tools for collaboration and tracking work
+- Learned how SSH provides a secure way to connect GitHub with a local machine
+- Gained confidence in cloning repositories and pushing changes
+- Learned how to troubleshoot common Git errors related to authentication
+- Understood why Linux/WSL is commonly used for development environments
+- Got introduced to GitHub Copilot and how it can speed up coding
+
