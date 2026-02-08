@@ -38,8 +38,6 @@
 - Ran a demo task using LLM CLI for practical understanding
 
 ## Week 1 – Day 5
-
-### Hands-On Activities
 - Installed and verified Git on the local system
 - Generated an SSH key using the terminal
 - Added the public SSH key to the GitHub account
@@ -49,3 +47,4 @@
 - Practiced staging files and committing changes
 - Pushed changes to GitHub and resolved permission issues
 - Observed how GitHub Copilot can assist during development
+
