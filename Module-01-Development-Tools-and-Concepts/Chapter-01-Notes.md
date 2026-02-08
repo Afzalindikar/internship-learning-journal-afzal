@@ -81,6 +81,24 @@ This session focused on setting up a complete development environment for effect
 - Tool configuration is an important part of professional development workflow
 
 
+## Week 1 – Day 5
+
+### Session Summary
+This session focused on setting up Git and GitHub properly for the course and understanding how version control will be used throughout the internship. The trainer explained how assignments can be managed, how repositories are created, and how GitHub helps in tracking progress. A major part of the session involved configuring SSH keys to securely connect the local system with GitHub and troubleshooting common issues faced while pushing code.
+
+### Concepts Covered
+- Understanding course workflow and assignment expectations
+- Installing and configuring Git
+- Creating repositories and files on GitHub
+- Difference between HTTPS and SSH cloning
+- Generating and adding SSH keys to GitHub
+- Cloning repositories using SSH
+- Adding files and committing changes locally
+- Fixing permission and push-related errors
+- Why Linux / WSL is preferred for development
+- Brief overview of Python environments using UV
+- Introduction to GitHub Copilot
+
 
 
 
