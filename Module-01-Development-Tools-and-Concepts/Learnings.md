@@ -52,3 +52,13 @@
 - Learned how local LLMs can be deployed and accessed securely using containers
 - Gained insight into building simple web applications backed by containerized services
 - Learned practical troubleshooting techniques for container and WSL networking issues
+
+## Week 2 – Day 2
+- Learned how real-world applications are split into multiple containers
+- Understood the importance of networking in container-based systems
+- Gained confidence in running and managing multiple containers simultaneously
+- Learned how volume mounts help retain data across container restarts
+- Understood how LLMs can be hosted locally using containers
+- Learned how backend services communicate through internal APIs
+- Gained practical insight into deploying AI-powered web applications
+- Learned how to troubleshoot common Podman and WSL networking problems
