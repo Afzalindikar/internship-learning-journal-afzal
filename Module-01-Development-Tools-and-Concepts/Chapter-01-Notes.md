@@ -99,6 +99,25 @@ This session focused on setting up Git and GitHub properly for the course and un
 - Brief overview of Python environments using UV
 - Introduction to GitHub Copilot
 
+## Week 2 – Day 1
+
+### Session Summary
+This session introduced the concept of containerization and demonstrated how containers simplify application setup, portability, and deployment. Using Podman within WSL, the instructor walked through multiple hands-on projects, including running Jupyter Lab in a container, deploying a local LLM using Ollama, and connecting multiple containers through networking. The session concluded with building a simple Flask application that communicates with an LLM backend running in a container, along with troubleshooting common WSL networking issues.
+
+### Concepts Covered
+- Fundamentals of containerization and its advantages
+- Installing and configuring Podman in WSL
+- Pulling and running container images
+- Managing running containers
+- Port binding to access containerized services
+- Persisting data using volume mounts
+- Running local LLMs (Ollama) inside containers
+- Interacting with services inside containers
+- Container networking and inter-container communication
+- Making API calls between containers
+- Building a Flask web application backed by an LLM
+- Debugging and resolving WSL networking issues
+
 
 
 
