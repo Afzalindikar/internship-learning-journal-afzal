@@ -74,3 +74,15 @@
 - Connected the Flask app to the LLM container
 - Troubleshot networking and connectivity issues in WSL
 
+## Week 2 – Day 3
+- Compared container architecture with virtual machines
+- Explored differences between Podman and Docker commands
+- Created and deployed a simple static site using GitHub Pages
+- Built a basic FastAPI application
+- Implemented GET and POST endpoints
+- Tested API endpoints using FastAPI Swagger documentation
+- Deployed the FastAPI app using Vercel CLI
+- Investigated deployment errors and timeout issues
+- Used ngrok to expose a local development server
+- Configured environment variables for secure API usage
+- Observed CORS behavior and tested cross-origin requests
