@@ -1,14 +1,12 @@
 # Hands-On 
 
 ## Week 1 – Day 1
-## Activities
 - Explored the internship learning journal sample repository
 - Understood the folder and file structure
 - Learned how learning will be documented module-wise and chapter-wise
 - Got familiar with GitHub interface
 
 ## Week 1 – Day 2
-##Activities
 -Researched Linux-based development environments
 -Studied WSL architecture and its benefits on Windows
 -Installed prerequisite tools required for development
@@ -17,7 +15,6 @@
 -Verified system compatibility for upcoming installations
 
 ## Week 1 – Day 3
-##Activities
 -Enabled Windows Virtual Machine Platform
 -Installed Ubuntu distribution on WSL2
 -Verified successful WSL installation
@@ -26,7 +23,6 @@
 -Tested file access between Windows and WSL
 
 ## Week 1 – Day 4
-##Activities
 -Analyzed sample API workflows
 -Studied request-response cycles
 -Explored API documentation examples
@@ -34,7 +30,6 @@
 -Reviewed examples of API usage in applications
 
 ## Week 2 – Day 5
-##Activities
 -Installed Git and confirmed successful setup using terminal commands
 -Created an SSH key pair on the local machine
 -Linked the public SSH key with the GitHub account
@@ -46,8 +41,6 @@
 -Explored how GitHub Copilot assists during coding tasks
 
 ## Week 2 – Day 1
-
-### Activities
 - Installed Podman inside the WSL environment
 - Pulled a Jupyter Lab container image
 - Ran and managed containers using Podman commands
@@ -61,8 +54,6 @@
 - Troubleshot networking issues related to WSL and containers
 
 ## Week 2 – Day 2
-
-### Activities
 - Verified Podman setup and container runtime inside WSL
 - Pulled and ran a Jupyter Lab container
 - Bound container ports to access services from the browser
@@ -76,9 +67,25 @@
 - Troubleshot networking and connectivity issues in WSL
 
 ## Week 2 – Day 3
-
-### Activities
+- Compared container architecture with virtual machines
+- Explored differences between Podman and Docker commands
+- Created and deployed a simple static site using GitHub Pages
+- Built a basic FastAPI application
+- Implemented GET and POST endpoints
+- Tested API endpoints using FastAPI Swagger documentation
+- Deployed the FastAPI app using Vercel CLI
 - Created a custom container image from a basic application
 - Used Podman pods to run multiple containers together
 - Experimented with network configuration between containers
+
+## Week 2 – Day 4
+- Set up a FastAPI project from scratch
+- Implemented a basic GET endpoint
+- Created endpoints using path and query parameters
+- Defined request and response models using Pydantic
+- Built POST endpoints with input validation
+- Created a Dockerfile for containerizing the API
+- Deployed the FastAPI application to Hugging Face
+- Wrote a bash script to automate API testing
 - Tested container performance with different options
+
