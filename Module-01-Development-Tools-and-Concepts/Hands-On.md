@@ -1,18 +1,13 @@
-# Hands-On – 
+# Hands-On 
 
-
-Day 1
+## Week 1 – Day 1
 ## Activities
 - Explored the internship learning journal sample repository
 - Understood the folder and file structure
 - Learned how learning will be documented module-wise and chapter-wise
 - Got familiar with GitHub interface
 
-## Tools Introduced
-- Git
-- GitHub
-
-Day 2
+## Week 1 – Day 2
 ##Activities
 -Researched Linux-based development environments
 -Studied WSL architecture and its benefits on Windows
@@ -21,7 +16,7 @@ Day 2
 -Examined sample JSON files used in assignments
 -Verified system compatibility for upcoming installations
 
-Day 3
+## Week 1 – Day 3
 ##Activities
 -Enabled Windows Virtual Machine Platform
 -Installed Ubuntu distribution on WSL2
@@ -30,7 +25,7 @@ Day 3
 -Navigated directories within the Linux file system
 -Tested file access between Windows and WSL
 
-Day 4
+## Week 1 – Day 4
 ##Activities
 -Analyzed sample API workflows
 -Studied request-response cycles
@@ -38,7 +33,7 @@ Day 4
 -Understood how data flows between services
 -Reviewed examples of API usage in applications
 
-Day 5
+## Week 2 – Day 5
 ##Activities
 -Installed Git and confirmed successful setup using terminal commands
 -Created an SSH key pair on the local machine
@@ -49,3 +44,41 @@ Day 5
 -Practiced staging and committing changes
 -Pushed updates to GitHub and fixed access-related issues
 -Explored how GitHub Copilot assists during coding tasks
+
+## Week 2 – Day 1
+
+### Activities
+- Installed Podman inside the WSL environment
+- Pulled a Jupyter Lab container image
+- Ran and managed containers using Podman commands
+- Exposed container ports to access Jupyter Lab from the browser
+- Mounted local directories as volumes to persist data
+- Deployed Ollama inside a container to run a local LLM
+- Interacted with the LLM from within the container
+- Configured Podman networking for container-to-container communication
+- Tested API calls between containers
+- Built and ran a basic Flask application connected to an LLM backend
+- Troubleshot networking issues related to WSL and containers
+
+## Week 2 – Day 2
+
+### Activities
+- Verified Podman setup and container runtime inside WSL
+- Pulled and ran a Jupyter Lab container
+- Bound container ports to access services from the browser
+- Mounted local directories to containers for persistent storage
+- Deployed Ollama in a separate container
+- Interacted with the LLM through terminal commands
+- Created a Podman network for container communication
+- Tested API requests between containers
+- Developed a simple Flask web application
+- Connected the Flask app to the LLM container
+- Troubleshot networking and connectivity issues in WSL
+
+## Week 2 – Day 3
+
+### Activities
+- Created a custom container image from a basic application
+- Used Podman pods to run multiple containers together
+- Experimented with network configuration between containers
+- Tested container performance with different options
