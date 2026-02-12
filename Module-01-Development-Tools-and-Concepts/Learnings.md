@@ -75,3 +75,15 @@
 - Understood the importance of environment variables for managing secrets
 - Gained clarity on how CORS affects API communication
 
+
+## Week 2 – Day 4
+- Understood the structured workflow for building and deploying the TDS project
+- Learned how FastAPI simplifies API development with automatic validation
+- Gained clarity on path parameters, query parameters, and request bodies
+- Understood the importance of Pydantic for data validation
+- Learned how to handle file uploads within APIs
+- Gained practical experience in testing APIs using curl
+- Understood how to manage secret keys securely in deployment
+- Learned how containerization and Dockerfiles support production deployment
+- Gained exposure to deploying applications on Hugging Face
+- Understood the importance of automated testing before live deployment
