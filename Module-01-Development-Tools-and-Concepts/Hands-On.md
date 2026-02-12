@@ -86,3 +86,18 @@
 - Used ngrok to expose a local development server
 - Configured environment variables for secure API usage
 - Observed CORS behavior and tested cross-origin requests
+
+## Week 2 – Day 4
+- Set up a FastAPI project from scratch
+- Implemented a basic GET endpoint
+- Created endpoints using path and query parameters
+- Defined request and response models using Pydantic
+- Built POST endpoints with input validation
+- Implemented file upload functionality (single and multiple files)
+- Tested endpoints using curl commands
+- Generated test cases using Copilot assistance
+- Configured environment variables for secret keys
+- Created a Dockerfile for containerizing the API
+- Deployed the FastAPI application to Hugging Face
+- Wrote a bash script to automate API testing
+
