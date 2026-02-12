@@ -11,16 +11,10 @@ structure, learning expectations, and how GitHub will be used to document learni
 - Repository and README files
 - Module-wise and chapter-wise folder structure
 
-## Documentation Method
-- Notes will be updated daily
-- Markdown files will be used
-- Changes will be committed and pushed regularly
 
 ## Day 2 Overview
 
 Day 2 focused on preparing the development environment required for the course. The session highlighted why most data science and backend workflows rely on Linux-based systems. The trainer explained the importance of setting up a consistent environment and introduced essential tools that will be used throughout the internship.
-
-##Topics Discussed
 
 -Importance of environment setup before coding
 -Why Linux is widely used in data science and backend roles
@@ -35,8 +29,6 @@ Day 2 focused on preparing the development environment required for the course. 
 
 The third day was centered around installing and configuring WSL on a Windows system. The instructor demonstrated how virtualization works and guided through enabling required system features. The session also introduced basic Linux terminal usage to help navigate the file system efficiently.
 
-##Topics Discussed
-
 -Enabling virtualization and system features
 -Installing Ubuntu using WSL2
 -Understanding Linux directory structure
@@ -47,8 +39,6 @@ The third day was centered around installing and configuring WSL on a Windows sy
 ## Day 4 Overview
 
 Day 4 focused on understanding APIs and their role in real-world systems. The trainer explained how APIs act as connectors between different services and emphasized thinking beyond individual programs to understand complete systems and workflows.
-
-##Topics Discussed
 
 -What APIs are and why they are important
 -Role of APIs in data pipelines
@@ -61,8 +51,6 @@ Day 4 focused on understanding APIs and their role in real-world systems. The tr
 
 The session concentrated on building a strong foundation in Git and GitHub, which will be used consistently during the internship. The instructor explained how assignments will be submitted and evaluated using GitHub repositories. Step-by-step guidance was provided on setting up Git, creating repositories, and linking the local system to GitHub securely using SSH keys. The session also addressed common errors encountered while pushing code and how to resolve them.
 
-##Topics Discussed
-
 -Internship workflow and assignment submission process
 -Git installation and initial configuration
 -Creating repositories and managing files on GitHub
@@ -74,3 +62,57 @@ The session concentrated on building a strong foundation in Git and GitHub, whic
 -Advantages of using Linux or WSL for development
 -Overview of Python environment management using UV
 -Basic introduction to GitHub Copilot and its use cases
+
+## Week 2 – Day 1
+
+### Concepts Covered
+- Fundamentals of containerization and its advantages
+- Installing and configuring Podman in WSL
+- Pulling and running container images
+- Managing running containers
+- Port binding to access containerized services
+- Persisting data using volume mounts
+- Running local LLMs (Ollama) inside containers
+- Interacting with services inside containers
+- Container networking and inter-container communication
+- Making API calls between containers
+- Building a Flask web application backed by an LLM
+- Debugging and resolving WSL networking issues
+
+## Week 2 – Day 2
+
+### Concepts Covered
+- Revisiting containerization principles through real projects
+- Installing and validating Podman in WSL
+- Pulling and running application images
+- Managing container lifecycle (start, stop, inspect)
+- Exposing services using port forwarding
+- Persisting notebooks and data via volume mounts
+- Running Ollama as a containerized local LLM
+- Sending prompts and receiving responses from a containerized LLM
+- Creating Podman networks for inter-container communication
+- Making API calls between services running in different containers
+- Building a Flask application with an LLM backend
+- Diagnosing and resolving WSL networking issues
+
+## Week 2 – Day 3
+
+### Concepts Covered
+- Building custom container images
+- Using Podman pods to group containers
+- Exposing multiple services via a network
+- Optimizing container size and performance
+
+
+## Week 2 – Day 4
+
+### Concepts Covered
+- Overview of TDS project workflow and submission expectations
+- Setting up a FastAPI project
+- Creating a basic GET endpoint
+- Using path parameters and query parameters
+- Using GitHub Copilot for test case generation
+- Managing secret keys securely
+- Writing a Dockerfile for deployment
+- Deploying FastAPI applications to Hugging Face
+- Creating bash scripts for live endpoint testing
