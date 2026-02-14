@@ -1,5 +1,7 @@
 # Module 03 – Large Language Models (LLMs)
-## WEEK 3 - DAY 2
+
+## WEEK 3 - DAY 1
+
 ## 1. Introduction to LLMs
 
 Large Language Models (LLMs) are AI models trained on massive text data.
@@ -492,6 +494,7 @@ Implementation tools:
 - Async requests
 - Timeout handling
 - JSON-safe formatting
+
 
 
 
