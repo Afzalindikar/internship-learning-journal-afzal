@@ -1,6 +1,5 @@
-# Prompt Engineering Experiments
 
-## WEEK 3 -DAY 1
+## WEEK 3 - DAY 1
 
 ## Experiment 1 – Basic Prompt
 Prompt:
@@ -153,3 +152,4 @@ Observation:
 - Used async API calls
 - Added timeout handling
 - Ensured JSON-safe outputs
+
