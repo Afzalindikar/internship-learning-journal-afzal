@@ -497,5 +497,284 @@ Implementation tools:
 
 
 
+# WEEK 3 – DAY 3 
+
+## 1. API Key Issues & Troubleshooting
+
+- API keys can expire or become invalid.
+- Always check:
+  - Expiry
+  - Correct environment variable
+  - Correct header format
+- Common mistake: Using wrong key in OpenAPI vs AI Pipe.
+
+Key Learning:
+Always verify environment variables before debugging code.
+
+---
+
+## 2. AI Pipe vs AI Proxy
+
+AI Proxy:
+- Simple middle layer.
+- For forwarding API requests.
+
+AI Pipe:
+- More advanced system.
+- Handles:
+  - Token tracking
+  - Authentication
+  - Rate limiting
+  - Cost control
+
+Understanding difference helps avoid token misuse.
+
+---
+
+## 3. Google Authentication (GA2) Issues
+
+Problems faced:
+- Key mismatch
+- Invalid credentials
+- Image compression issues
+
+Solution:
+- Check credentials.json
+- Verify OAuth setup
+- Use Chrome Dev Tools to inspect errors
+
+---
+
+## 4. FastAPI Deployment Issues (Vercel)
+
+Common issues:
+- Incorrect configuration
+- Missing requirements.txt
+- Environment variables not set
+- Wrong file structure
+
+Deployment requires:
+- FastAPI app
+- Proper routing
+- API key setup
+
+---
+
+## 5. Project 1 Requirements
+
+Deadline: June 14
+
+Project must include:
+- FastAPI backend
+- Web scraping
+- Discourse API integration
+- Deployment (public link)
+- Proper evaluation handling
+
+Evaluation:
+- Based on 2x2 scoring model
+- Functionality + Correctness
+
+---
+
+## 6. Scraping Discourse Data
+
+- Use Discourse API
+- Extract posts
+- Clean text
+- Store for processing
+
+Important:
+Handle rate limits properly.
+
+---
+
+## 7. Prompt Engineering (GA3 Q11)
+
+- Clear prompts give better results.
+- Specify format.
+- Avoid vague instructions.
+- Structured prompts reduce ambiguity.
+
+---
+
+## 8. OpenAPI vs AI Pipe Token Usage
+
+- Tokens consumed differ based on service.
+- Track usage carefully.
+- Improper configuration can double token usage.
+
+---
+
+## 9. Course Structure Insights
+
+- TDS focuses on tools + implementation.
+- Requires basic coding background.
+- Encouraged asking questions on Discourse.
+- GitHub portfolio is important.
+
+---
+
+## 10. Resume & Career Advice
+
+- Showcase projects on GitHub.
+- Deploy working APIs.
+- Highlight:
+  - FastAPI
+  - RAG
+  - Embeddings
+  - Deployment skills
 
 
+# WEEK 3 – DAY 4 
+
+## 1. Word Embeddings & Semantic Meaning
+
+- Words are converted into vectors.
+- Similar meaning → similar vectors.
+- Used cosine similarity to compare vectors.
+- Learned distance calculation using NumPy.
+
+Key idea:
+Embeddings capture meaning, not just keywords.
+
+---
+
+## 2. OpenAI API Calls
+
+- Used HTTPX for making API requests.
+- Learned how to send:
+  - POST request
+  - Headers (Authorization)
+  - JSON body
+  - API URL
+
+Understood:
+- Different endpoints
+- Chat completion API
+- Model selection (e.g., GPT-4.1 nano)
+- API pricing depends on token usage
+
+---
+
+## 3. Environment Setup
+
+- Stored API key in .bashrc
+- Used environment variables
+- Tested API using curl commands
+
+Important:
+Never hardcode API keys in source code.
+
+---
+
+## 4. Chat Completion API
+
+Chat structure includes roles:
+- system → instructions
+- user → question
+- assistant → response
+
+Example:
+System: "You are a helpful assistant."
+User: "Explain embeddings."
+
+This helps maintain conversation structure.
+
+---
+
+## 5. Chatbot with History
+
+- Maintained previous messages.
+- Sent full conversation to API.
+- LLM uses history as memory (within token limit).
+
+Important:
+LLMs don’t have permanent memory.
+
+---
+
+## 6. Base64 Encoding
+
+- Used to convert image → text format.
+- Required when sending images to API.
+- Learned encoding and decoding process.
+
+Used for:
+- Image understanding
+- Multimodal models
+
+---
+
+## 7. Vector Databases & Similarity
+
+- Stored embedding vectors.
+- Calculated cosine similarity.
+- Retrieved most similar text.
+- Used NumPy for vector operations.
+
+Steps:
+1. Convert query to embedding.
+2. Compare with stored embeddings.
+3. Return most similar chunk.
+
+---
+
+## 8. Multimodal Embeddings
+
+- Embeddings for text + image.
+- Can search images using text.
+- Used models supporting multimodal input.
+
+Example:
+Upload product image → Extract details.
+
+---
+
+## 9. Function Calling
+
+LLM can call predefined functions.
+
+Process:
+1. Define function schema.
+2. Pass tools to model.
+3. Model selects function.
+4. Returns structured JSON arguments.
+
+Used for:
+- Extracting manufacturing date
+- Extracting expiry date
+- Structured data extraction
+
+---
+
+## 10. Tools & Function Schema
+
+- Defined schema using JSON format.
+- Specified required fields.
+- Model returned structured output.
+
+Benefits:
+- Reliable automation
+- Easy parsing
+- Reduced ambiguity
+
+---
+
+## 11. Image to Text Conversion
+
+- Convert image → Base64
+- Send to multimodal model
+- Extract structured information
+
+---
+
+## 12. Key Takeaways
+
+- Understood embeddings deeply.
+- Implemented cosine similarity.
+- Made API calls using HTTPX.
+- Built chatbot with conversation history.
+- Implemented function calling with schema.
+- Worked with multimodal embeddings.
+- Improved debugging and troubleshooting skills.
