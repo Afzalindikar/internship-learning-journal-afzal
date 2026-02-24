@@ -39,3 +39,32 @@
 - Avoid sending full documents to LLM.
 - Use hybrid RAG for better accuracy.
 
+
+# Week 3 – Day 3
+- Understood practical OpenAI API integration
+- Learned how chat completion APIs process roles and context
+- Gained clarity on conversation history for contextual responses
+- Learned how embeddings convert text into vectors
+- Understood semantic similarity and cosine calculation
+- Implemented vector comparison using NumPy
+- Learned ranking mechanism for similarity search
+- Understood importance of secure API key management
+- Compared models based on cost vs reasoning ability
+- Gained hands-on experience building chatbot architecture
+- Learned basics of function calling and structured outputs
+- Improved debugging and API troubleshooting skills
+- Strengthened understanding of production-ready AI workflows
+
+# Week 3 – Day 4
+- Understood complete RAG pipeline implementation
+- Learned how chunking impacts retrieval quality
+- Gained clarity on embedding storage strategy
+- Practiced cosine similarity calculation
+- Implemented Top-K retrieval mechanism
+- Observed how RAG reduces hallucination
+- Understood importance of grounding LLM responses
+- Learned performance optimization using async calls
+- Applied cost-aware design principles
+- Improved document retrieval accuracy using hybrid RAG
+- Gained practical experience building production-ready semantic search system
+- Strengthened understanding of embedding-based information retrieval
