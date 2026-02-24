@@ -120,3 +120,36 @@ Observation:
 - Easy to parse programmatically.
 - Useful for automation.
 
+### Week 3 – Day 3
+- Made OpenAI API calls using HTTPX
+- Sent structured JSON requests
+- Configured API keys via environment variables
+- Updated .bashrc for persistent setup
+- Built chatbot with message roles
+- Implemented system prompt behavior control
+- Maintained conversation history manually
+- Generated embeddings for text inputs
+- Calculated cosine similarity using NumPy
+- Ranked most similar text chunks
+- Compared model outputs (nano vs larger model)
+- Tested structured JSON output format
+- Implemented basic function calling
+- Handled API response parsing
+- Debugged request and authentication errors
+
+
+### Week 3 – Day 4
+- Implemented full RAG pipeline
+- Split large documents into chunks
+- Stored chunks with embeddings in JSON
+- Generated query embeddings
+- Calculated cosine similarity using NumPy
+- Ranked chunks by similarity score
+- Retrieved Top-K most relevant chunks
+- Sent retrieved context to chat completion API
+- Compared responses with and without RAG
+- Tested different Top-K values
+- Implemented hybrid retrieval approach
+- Used async API calls
+- Added timeout handling
+- Ensured JSON-safe outputs
