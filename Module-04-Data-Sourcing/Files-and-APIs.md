@@ -76,7 +76,7 @@ from geopy.geocoders import Nominatim
 geo = Nominatim(user_agent="myapp")
 ```
 
-⚠️ `user_agent` must be **lowercase and contain no spaces**
+ `user_agent` must be **lowercase and contain no spaces**
 
 ---
 
@@ -465,4 +465,5 @@ Convert data into structured format
 Combine datasets for analysis
 
 ---
+
 
