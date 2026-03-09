@@ -1,9 +1,9 @@
-# 📘 Week 4 – Session 1  
+#  Week 4 – Session 1  
 ## APIs, Geocoding, and Data Extraction
 
 ---
 
-# 1️⃣ Extracting Backend APIs Using Browser Tools
+# 1. Extracting Backend APIs Using Browser Tools
 
 ## Concept
 Many modern websites load data using **hidden APIs** instead of static HTML.  
@@ -53,7 +53,7 @@ Steps:
 
 ---
 
-# 2️⃣ Geocoding with Geopy (Nominatim)
+# 2️ Geocoding with Geopy (Nominatim)
 
 ## Concept
 Geocoding converts:
@@ -147,7 +147,7 @@ geocode = RateLimiter(geo.geocode, min_delay_seconds=1)
 
 ---
 
-# 3️⃣ Wikipedia Python Package
+# 3️ Wikipedia Python Package
 
 ## Install
 
@@ -188,7 +188,7 @@ page.references
 
 ---
 
-# 4️⃣ Scraping IMDb Using Browser JavaScript
+# 4️ Scraping IMDb Using Browser JavaScript
 
 Open **Developer Tools → Console**
 
@@ -224,7 +224,7 @@ Convert result → **CSV / Excel**
 
 ---
 
-# 5️⃣ Web Scraping Dynamic Sites with Playwright
+# 5️ Web Scraping Dynamic Sites with Playwright
 
 ## Problem
 
@@ -295,7 +295,7 @@ page.fill("#username","user")
 
 ---
 
-# 6️⃣ Scraping PDFs and Extracting Tables
+# 6️ Scraping PDFs and Extracting Tables
 
 ## Libraries Used
 
@@ -335,7 +335,7 @@ tabula.convert_into(
 
 ---
 
-# 7️⃣ Converting Documents to Markdown (MarkItDown)
+# 7️ Converting Documents to Markdown (MarkItDown)
 
 Microsoft tool to convert files → **Markdown**
 
@@ -372,7 +372,7 @@ print(result.text_content)
 
 ---
 
-# 8️⃣ LLM-Based Website Scraping
+# 8️ LLM-Based Website Scraping
 
 LLMs can extract **structured data from messy webpages**
 
@@ -398,7 +398,7 @@ Output → **JSON / CSV**
 
 ---
 
-# 9️⃣ Chrome Remote Debugging for Scraping
+# 9️ Chrome Remote Debugging for Scraping
 
 Used when a website requires **login session**
 
@@ -422,7 +422,7 @@ browser = p.chromium.connect_over_cdp("http://localhost:9222")
 
 ---
 
-# 🔟 Scheduled Scraping with GitHub Actions
+# 10 Scheduled Scraping with GitHub Actions
 
 Run scrapers **automatically on schedule**
 
@@ -447,7 +447,7 @@ Runs **daily at midnight (UTC)**
 
 ---
 
-# 1️⃣1️⃣ Open Data Processing Pipeline
+# 11 Open Data Processing Pipeline
 
 Standard pipeline:
 
@@ -465,3 +465,4 @@ Convert data into structured format
 Combine datasets for analysis
 
 ---
+
