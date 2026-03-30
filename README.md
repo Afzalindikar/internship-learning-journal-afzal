@@ -22,9 +22,13 @@ Course Link: https://tds.s-anand.net/#/
 
 | Module | Topics | Status |
 |--------|--------|--------|
-| Module 01 | Foundations | In Progress |
-| Module 02 | Tools & Implementation | Not Started |
-| Module 03 | Project Work | Not Started |
+| Module 01 | Development Tools | Completed |
+| Module 02 | Deployment Tools | Completed |
+| Module 03 | LLMS | Completed |
+| Module 04 | Data Sourcing | Completed|
+| Module 05 | Data Preparation | Completed|
+| Module 06 | Data Analysis | Completed|
+| Module 07 | Data Visualization | Completed|
 
 ---
 
@@ -47,17 +51,15 @@ Course Link: https://tds.s-anand.net/#/
 
 ---
 
-## ❓ Doubts / Topics to Revisit
-- Topic 1  
-- Topic 2  
-
----
-
 ## 🔄 Weekly Update Log
 | Week | What I Learned |
 |------|----------------|
-| Week 1 | |
-| Week 2 | |
-
+| Week 1 |Development Tools |
+| Week 2 | Deployment Tools|
+| Week 3 | LLMS
+| Week 4 | Data Sourcing
+| Week 5 | Data Preparation
+| Week 6 | Data Analysis
+| Week 7 | Data Visualization
 ---
 
